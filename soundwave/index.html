@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>StreamIt</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body style="background-color: #0b1828">
+  <!--start main area-->
+  <main>
+    <!--NAVbar start-->
+    <nav class="mainnav shadow navbar-expand-lg bg-light navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-soundwave"></i> StreamIt
+          <div style="font-size: 13px">The Choice Is Yours</div>
+        </a>
+        <div>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+              aria-describedby="basic-addon2" />
+            <span class="bg-black text-white border-0 input-group-text" id="basic-addon2"><i
+                class="bi bi-search"></i></span>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New Release</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Genre
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Hip-Hop/Rap</a></li>
+                <li><a class="dropdown-item" href="#">Afrobeat</a></li>
+                <li><a class="dropdown-item" href="#">Drill</a></li>
+              </ul>
+            </li>
+            <img class="rounded-circle" src="images/profilepic.jpg" style="width: 40px; height: 40px" />
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Hi, Michael
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#"><i class="bi bi-person"></i>Profile</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-gear"></i>Settings</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-arrow-bar-right"></i>Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--NAVbar end-->
+
+    <!--start HERO area-->
+    <div class="hero-area text-white pt-2">
+      <ul class="hero-nav nav m-4 nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="text-white nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+            Featured
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="text-white nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+            aria-selected="false">
+            Trending
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="text-white nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+            aria-selected="false">
+            New Release
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+          tabindex="0">
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">01</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover2.jpg" />
+              <div class="ms-1">
+                <div>TELL</div>
+                <small class="text-muted">"learn 4 set mot"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">02</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover1.jpg" />
+              <div class="ms-1">
+                <div>AH DE GO DAE GBET</div>
+                <small class="text-muted">"paw-paw we fo reach"</small>
+              </div>
+            </div>
+            <div class="col-2">02:15<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">03</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover4.jpg" />
+              <div class="ms-1">
+                <div>AWAY</div>
+                <small class="text-muted">"love nr de last"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">05</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover2.jpg" />
+              <div class="ms-1">
+                <div>TELL</div>
+                <small class="text-muted">"learn 4 set mot"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">06</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover1.jpg" />
+              <div class="ms-1">
+                <div>AH DE GO DAE GBET</div>
+                <small class="text-muted">"paw-paw we fo reach"</small>
+              </div>
+            </div>
+            <div class="col-2">02:15<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">07</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover2.jpg" />
+              <div class="ms-1">
+                <div>POPULAR</div>
+                <small class="text-muted">"hard work don pay"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">08</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover4.jpg" />
+              <div class="ms-1">
+                <div>TELL</div>
+                <small class="text-muted">"love nr de last"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">09</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover2.jpg" />
+              <div class="ms-1">
+                <div>TELL</div>
+                <small class="text-muted">"learn 4 set mot"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">10</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover1.jpg" />
+              <div class="ms-1">
+                <div>AH DE GO DAE GBET</div>
+                <small class="text-muted">"paw-paw we fo reach"</small>
+              </div>
+            </div>
+            <div class="col-2">02:15<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">11</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover2.jpg" />
+              <div class="ms-1">
+                <div>POPULAR</div>
+                <small class="text-muted">"hard work don pay"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+
+          <!--song item  start-->
+          <div class="song-small ms-4 m-1 col-md-5 row align-items-center">
+            <div class="col-1 h3">12</div>
+            <div class="col d-flex">
+              <img class="song-small-img rounded m-1" src="images/cover4.jpg" />
+              <div class="ms-1">
+                <div>TELL</div>
+                <small class="text-muted">"love nr de last"</small>
+              </div>
+            </div>
+            <div class="col-2">04:30<i class="bi bi-play"></i></div>
+          </div>
+          <!--song item stop-->
+        </div>
+      </div>
+    </div>
+    <!--end HERO area-->
+
+    <h3 class="song-category-title pt-4 mx-5">Rap Music<small class="float-end"><a href=""><small>View More</small> <i
+            class="bi bi-box-arrow-up-right"></i></a></small></h3>
+    <!--start category area-->
+    <section class="mx-5 d-flex" style="flex-wrap: wrap">
+      <!--song card start-->
+      <div class="m-4 song-big-hover" style="width: 200px">
+        <img src="images/cover1.jpg" class="rounded img-fluid" style="width: 200px; height: 200px; object-fit: cover" />
+        <a href="">
+          <div>
+            <i class="h1 bi bi-play"></i>
+          </div>
+        </a>
+        <div>
+          <div class="text-white lead">Ah dae go de gbet</div>
+          <small class="text-muted">DRIZILIK</small>
+        </div>
+      </div>
+      <!--song card end-->
+      <!--song card start-->
+      <div class="m-4 song-big-hover" style="width: 200px">
+        <img src="images/cover2.jpg" class="rounded img-fluid" style="width: 200px; height: 200px; object-fit: cover" />
+        <a href="">
+          <div>
+            <i class="h1 bi bi-play"></i>
+          </div>
+        </a>
+        <div>
+          <div class="text-white lead">Tell</div>
+          <small class="text-muted">DRIZILIK</small>
+        </div>
+      </div>
+      <!--song card end-->
+      <!--song card start-->
+      <div class="m-4 song-big-hover" style="width: 200px">
+        <img src="images/cover3.jpg" class="rounded img-fluid" style="width: 200px; height: 200px; object-fit: cover" />
+        <a href="">
+          <div>
+            <i class="h1 bi bi-play"></i>
+          </div>
+        </a>
+        <div>
+          <div class="text-white lead">Popular</div>
+          <small class="text-muted">DRIZILIK</small>
+        </div>
+      </div>
+      <!--song card end-->
+    </section>
+
+    <h3 class="song-category-title pt-4 mx-5">Afrobeat<small class="float-end"><a href=""><small>View More</small> <i
+            class="bi bi-box-arrow-up-right"></i></a></small></h3>
+    <!--start category area-->
+    <section class="mx-5 d-flex" style="flex-wrap: wrap">
+
+      <!--song card start-->
+      <div class="m-4 song-big-hover" style="width: 200px">
+        <img src="images/cover4.jpg" class="rounded img-fluid" style="width: 200px; height: 200px; object-fit: cover" />
+        <a href="">
+          <div>
+            <i class="h1 bi bi-play"></i>
+          </div>
+        </a>
+        <div>
+          <div class="text-white lead">Away</div>
+          <small class="text-muted">JXSHY</small>
+        </div>
+      </div>
+      <!--song card end-->
+    </section>
+    <!--end category area-->
+  </main>
+  <!--end main area-->
+  <footer class="p-5 pt-2 row bg-dark text-white">
+    <div style="height: 10px;">
+      <div class= "sign-up-pop mt-2">
+        <button type="button" class="btn bg-light text-black rounded-pill fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Sign up free
+        </button>
+      </div>
+      <small>PREVIEW OF StreamIt</small>
+      <div>Sign up to get unlimited songs and podcasts with occassional ads. No credit card needed.</div>
+    </div>
+    
+    <!--start of modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h1 class="modal-title fs-10" id="exampleModalLabel">Get an account</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex" style="justify-content:center;">
+            <i>Start listening with a free StreamIt account</i>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn bg-light text-black rounded-pill fw-bold sign-up-pop">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of modal-->
+
+  </footer>
+</body>
+
+</html>
